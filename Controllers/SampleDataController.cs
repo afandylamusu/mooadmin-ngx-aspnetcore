@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace mooadmin_ngx_aspnetcore.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/sample-data")]
     public class SampleDataController : Controller
     {
         private static string[] Summaries = new[]
